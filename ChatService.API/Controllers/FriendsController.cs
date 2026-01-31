@@ -11,7 +11,7 @@ namespace ChatService.API.Controllers;
 
 [Authorize]
 [ApiController]
-[Route("Campus-net/Friends")]
+[Route("Campus-net/social/Friends")]
 public class FriendsController : ControllerBase
 {
     private readonly IMediator _mediator;

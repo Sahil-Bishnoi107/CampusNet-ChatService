@@ -11,7 +11,7 @@ namespace ChatService.API.Controllers;
 
 [Authorize]
 [ApiController]
-[Route("Campus-Net/Messages")]
+[Route("Campus-Net/social/Messages")]
 public class MessagesController : ControllerBase
 {
     private readonly IMediator _mediator;
